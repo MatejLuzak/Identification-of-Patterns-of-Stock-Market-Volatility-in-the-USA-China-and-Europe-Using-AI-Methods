@@ -1,0 +1,25 @@
+1. Projekt k téme dizertačnej práce
+Uchádzač si pripraví krátku esej o štúdiu (v písomnej forme, max. 2 strany) podľa zadania a anotácie témy práce zverejnenej web sídle FPV UKF v Nitre v sekcii Štúdium – Doktorandské štúdium.
+V eseji sa uchádzač vyjadrí k nasledujúcim bodom:
+Zdôvodnenie riešenia dizertačnej práce.
+Cieľ dizertačnej práce.
+Poznatky o predpokladaných metódach, ktoré budú v práci použité.
+Informácie o tom, aké poznatky rozšíri dizertačná práca.
+Informácie o tom, aké nové poznatky prinesie dizertačná práca.
+Informácie o tom, aké praktické výsledky prinesie dizertačná práca.
+
+2. Tézy k prijímacej skúške z obsahu odboru
+
+Matematické princípy informatiky
+
+exploračná analýza (početnosti a popisné charakteristiky, vizualizácia dát, analýza reziduálnych hodnôt, transformácia dát, viacrozmerné prieskumné techniky);
+pravdepodobnosť ako teoretický základ inferenčnej analýzy (náhodné premenné, náhodné vektory, náhodná premenná a jej rozdelenie, normálne rozdelenie náhodnej premennej, limitné vety, overovanie predpokladu normality, prehľad rozdelení odvodených od normálneho rozdelenia);
+inferenčná analýza (odhady parametrov, testovanie hypotéz, parametrické/neparametrické testy, závislé/nezávislé vzorky, jednorozmerné/viacnásobné/viacrozmerné analýzy);
+základné štatistické metódy (popisná štatistika, testy rozdelenia, testy o rozptyle a ich neparametrické alternatívy, testy o strednej hodnote a ich neparametrické alternatívy, vzťahy medzi premennými).
+
+Teória a metodológia aplikovanej informatiky
+
+proces objavovania znalostí; metodiky (Six Sigma, SEMMA, CRISP-DM);
+hlavné oblasti objavovania znalostí (KDD, text mining, web mining); zdroje dát (databázy/dátové sklady, kolekcie dokumentov, logovacie súbory);
+dolovanie z dát; výber analytickej metódy; štatistické metódy (viacrozmerné prieskumné techniky, lineárne/nelineárne modely); metódy strojového učenia (symbolické, subsymbolické metódy); aplikácia vybraných analytických metód (zhluková analýza, diskriminačná analýza, zovšeobecnené lineárne modely, asociačné a sekvenčné pravidlá, rozhodovacie stromy, rozhodovacie pravidlá, metódy založené na analógii, neurónové siete, Bayesovské siete); vyhodnotenie výsledkov (overenie predpokladov použitia, porovnanie výsledkov, vizualizácia, krížová validácia, m-násobná krížová validácia);
+úlohy objavovania znalostí/typy DM problémov (deskripcia dát a sumarizácia, segmentácia, deskripcia konceptov, klasifikácia, predikcia, analýza závislostí) v kontexte príslušnej oblasti/domény.
