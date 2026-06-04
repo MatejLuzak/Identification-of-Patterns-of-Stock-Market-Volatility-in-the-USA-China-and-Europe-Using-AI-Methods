@@ -1,0 +1,55 @@
+1. Aký veľký bude dataset týchto firiem, respektíve o koľko firiem by
+išlo?
+Možná odpoveď: Pre každý trh sa budeme snažiť identifikovať top
+napríklad 30 firiem (existujú rebríčky a teda z tadiaľ ich prevezmeme).
+2. Aké je kritérium pre top firmu?
+Možná odpoveď: kritéria sú rôzne, ale napríklad to môže byť zisk vs
+obrat, produktivita, hodnota firmy určená indexom, atď. (skúste sa na to
+pozrieť aj vy podrobnejšie)
+3. Keď vyberiete firmy, budú všetky technologického charakteru, resp.
+pôjde o IT firmy?
+Možná odpoveď: nie, prioritne nepôjde o IT firmy, pretože tie sa mohli
+počas obdobia pandémie správať neštandardne. Je rozdiel napríklad
+stavebná firma, kde táto volatilita by mohla byť určite vyššia (keďže sa
+na čas zastavil akýkoľvek kontakt a teda home office bol pre takúto
+firmu problematický) a je rozdiel IT firma, kde zamestnanci s home
+office nemali absolútne žiadny problém a teda naopak pri IT firme
+nemuselo nutne dôjsť k poklesu ale k nárastu zisku. Preto je potrebné
+určiť ako negatívne., tak aj pozitívne trendy pri viacerých odvetviach a
+navzájom určiť príčiny. V princípe teda by sme zobrali 30 firiem z
+každého trhu, tých 30 firiem by bolo rozdelených do 6 top kategórií
+(bankovníctvo, automobilový priemysel, IT, zdravotníctvo, stavebníctvo /
+reality) - to sa ešte uvidí. Možno tak bude viac kategórií a teda aj
+viac ako 30 firiem. Ak ich takto porovnáme a zistíme, že všade je to v
+každom odvetví +/- rovnaké, môžeme tvrdiť, že správanie firiem je +/-
+rovnaké či v danom období. Dúfam, že sa chápeme :)
+4. Ázijský trh je veľmi široký a firma môže pôsobiť naraz na rôznych
+kontinentoch...
+Možná odpoveď: Áno, a preto je potrebné práve porovnať, ako sa firme
+darilo a zároveň určiť, čo bolo príčinou neúspechu na danom trhu.
+5. Ako chcete určiť príčinu úspechu / neúspechu?
+Možná odpoveď: Keďže budeme analyzovať dáta, ktoré vieme získať na
+dennej báze, je potrebné sa zamerať na to, prečo vznikla daná
+volatilita. Možno sú to rozhodnutia daného predstaviteľa politického
+spektra, možno jeho vyjadrenia. Je preto potrebné sa na to pozrieť tak,
+aby sme jasne určili, čo bolo príčinou či už daného krátkodobého alebo
+dlhodobého stavu volatility.
+6. Čo je vlastne cieľom? Je to nejaká metodika? Odporúčanie? Alebo čo
+dostaneme na konci dňa?
+Možná odpoveď: Cieľom nie je dať traderom návod kedy a ako kupovať
+alebo predávať. Cieľom je určiť príčiny chovania sa trhu. Štandardne sa
+na tieto príčiny pozeráme z pohľadu štatistiky, pričom sa využíva dátová
+veda. Avšak dnešné štatistické metódy už nemusia stačiť na to, aby sme
+dokázali predikovať chovanie trhu. Máme modernejšie metódy založené na
+AI (aj keď v podstate vychádzajú z tých štatistikých metód) a pomocou
+nich by malo byť možné identifikovať problémové miesta a tiež by mali
+mať schopnosť predikovať, či môže s akou pravdepodobnosťou nastať daný
+stav. Keďže by sme porovnávali dosť široké obdobie, mali by sme vedieť
+pomocou nich určiť správanie sa trhu počas určitých kríz. Počas
+skúmaného obdobia vznikli menšie a väčšie krízy. Zaujímavé teda je
+pozorovať, či sa tomu nedalo nejakým spôsobom predchádzať.
+7. Minulé zisky nemusia zaistiť budúce zisky.
+Možná odpoveď: To je pravda a ani sa o to nesnažíme. Avšak dôležité je
+pochopiť, či volatilita súvisela s krízou trhu, alebo so zlým
+rozhodnutím firmy alebo jednoducho len s "neohrabaným" vyjadrením
+prípadne aktivitou čelného predstaviteľa štátu a tým aj šokom na trhu.
