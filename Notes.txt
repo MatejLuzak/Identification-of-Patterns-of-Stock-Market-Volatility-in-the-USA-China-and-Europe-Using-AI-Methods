@@ -1,0 +1,20 @@
+Výber firiem - 6 sektorov:
+IT, Financie, Priemysel, Spotrebný tovar, Energie, Zdravotníctvo.
+
+Výber firiem na základe indexov SP500, STOXX600, Shanghai Composite.
+Firma musí mať denné dáta počas celého obdobia, neobsahuje veľa chýbajúcich dát a patrí medzi veľké firmy s vysokou likviditou.
+
+
+Modely:
+GARCH - zisťuje či má volatilita pamäť. Identifikuje zhlukovanie a perzistenciu volatility.
+GJR-GARCH - pomáha identifikovať, či nnegatívny výnosy majú väčší vplyv na volatilitu ako pozitívne.
+HAR-RV - zachytáva, od akého časového okna závisí volatilita (denná, týždenná, mesačná).
+
+Metódy umelej inteligencie zachytávajú vzory volatility a vykonávajú predikciu. 
+
+Porovnanie:
+- priemerná volatilita,
+- maximálna volatilita,
+- perzistencia volatility,
+- presnosť modelov,
+- identifikácia najdôležitejších vstupných premenných
