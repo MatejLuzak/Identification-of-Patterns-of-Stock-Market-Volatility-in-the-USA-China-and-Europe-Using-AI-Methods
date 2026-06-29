@@ -1,0 +1,99 @@
+Kľúčové slová:
+stock market/financial market
+volatility/volatility forcasting/realized volatility
+COVID-19/coronavirus/pandemic
+GARCH/HAR
+machine learning/deep learning/artificial inteligence
+
+WOS Screening:
+
+2. stock market/financial market + volatility/volatility forecasting/realized volatility + COVID-19/coronavirus/pandemic
+3. volatility/volatility forecasting/realized volatility + stock market/financial market + garch/har
+4. volatility/volatility forecasting/realized volatility + stock market/financial market + machine learning/deep learning/artificial inteligence
+5. volatility/volatility forecasting/realized volatility + stock market/financial market + garch/har + COVID-19/coronavirus/pandemic
+6. volatility/volatility forecasting/realized volatility + stock market/financial market + machine learning/deep learning/artificial inteligence + COVID-19/coronavirus/pandemic
+7. volatility/volatility forecasting/realized volatility + stock market/financial market + garch/har + machine learning/deep learning/artificial inteligence + COVID-19/coronavirus/pandemic
+
+Article, Review Article
+SCIE, SSCI, ESCI
+
+Database: Web of Science Core Collection
+Indexes: SCIE, SSCI, ESCI
+Document types: Article, Review Article, Early Access
+Language: English
+Queries: Q2–Q7
+Years: 2020-2026
+
+Columns:
+Author(s)
+Title
+Source
+Times Cited Count
+ISSN
+Abstract
+Document Type
+Keywords
+WoS Categories
+Research Areas
+WoS Editions
+Language
+IDS Number
+
+Queries:
+
+Q2:
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q3: market + volatility + GARCH/HAR
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND (GARCH OR HAR OR "heterogeneous autoregressive"))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q4: market + volatility + AI/ML/DL
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR LSTM OR "long short-term memory"))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q5: market + volatility + GARCH/HAR + COVID
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND (GARCH OR HAR OR "heterogeneous autoregressive")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q6: market + volatility + AI/ML/DL + COVID
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR LSTM OR "long short-term memory")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q7: market + volatility + GARCH/HAR + AI/ML/DL + COVID
+TS=(("stock market*" OR "financial market*")
+AND (volatil* OR "volatility forecasting" OR "realized volatility")
+AND (GARCH OR HAR OR "heterogeneous autoregressive")
+AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR LSTM OR "long short-term memory")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Final: 
+Total records loaded: 5344
+Unique records: 4114
+Duplicates removed: 1230
