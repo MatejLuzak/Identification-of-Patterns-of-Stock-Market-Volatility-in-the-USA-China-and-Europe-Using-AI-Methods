@@ -1,0 +1,97 @@
+Kľúčové slová:
+stock market/financial market
+volatility/volatility forcasting/realized volatility
+COVID-19/coronavirus/pandemic
+GARCH/HAR
+machine learning/deep learning/artificial inteligence
+
+Article, Review Article
+SCIE, SSCI, ESCI
+
+Database: Web of Science Core Collection
+Indexes: SCIE, SSCI, ESCI
+Document types: Article, Review Article, Early Access
+Language: English
+Queries: Q1–Q4
+Years: 2020-2026
+
+Columns:
+Author(s)
+Title
+Source
+Times Cited Count
+ISSN
+Abstract
+Document Type
+Keywords
+WoS Categories
+Research Areas
+WoS Editions
+IDS Number
+Language
+
+Queries:
+Q1: market + volatility + COVID + analytical/modeling context
+TS=(("stock market*" OR "financial market*" OR "equity market*" OR "stock index*" OR "market index*")
+AND (volatil* OR "volatility forecasting" OR "volatility prediction" OR "realized volatility" OR "conditional volatility" OR "volatility spillover*" OR "volatility transmission")
+AND ("COVID-19" OR coronavirus OR pandemic* OR "SARS-CoV-2")
+AND (forecast* OR predict* OR model* OR "time series" OR spillover* OR connectedness OR "empirical analysis"))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q2: market + volatility + GARCH/HAR + COVID
+TS=(("stock market*" OR "financial market*" OR "equity market*" OR "stock index*")
+AND (volatil* OR "volatility forecasting" OR "volatility prediction" OR "realized volatility" OR "conditional volatility")
+AND (GARCH OR "GJR-GARCH" OR EGARCH OR HAR OR "HAR-RV" OR "heterogeneous autoregressive")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q3: market + volatility + AI/ML/DL + COVID
+TS=(("stock market*" OR "financial market*" OR "equity market*" OR "stock index*")
+AND (volatil* OR "volatility forecasting" OR "volatility prediction" OR "realized volatility" OR "conditional volatility")
+AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR LSTM OR "long short-term memory" OR XGBoost OR "neural network*" OR "random forest")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Q4: market + volatility + GARCH/HAR + AI/ML/DL + COVID
+TS=(("stock market*" OR "financial market*" OR "equity market*" OR "stock index*")
+AND (volatil* OR "volatility forecasting" OR "volatility prediction" OR "realized volatility" OR "conditional volatility")
+AND (GARCH OR "GJR-GARCH" OR EGARCH OR HAR OR "HAR-RV" OR "heterogeneous autoregressive")
+AND ("machine learning" OR "deep learning" OR "artificial intelligence" OR LSTM OR "long short-term memory" OR XGBoost OR "neural network*" OR "random forest")
+AND ("COVID-19" OR coronavirus OR pandemic*))
+AND LA=(English)
+AND DT=(Article OR Review)
+AND PY=(2020-2026)
+
+Final: 
+Total records loaded: 2475
+Unique records: 1864
+Duplicates removed: 611
+
+Screening:
+1. Zber dát z WOS Core Collection naprieč Q2-Q7.
+2. Odstránenie duplicít. 
+3. Screening Title, Abstract, Author Keywords, Keywords Plus
+	- Ak obsahuje súvis s akciovým trhom,
+	- Súvis s volatilitou,
+	- Súvis s COVIDom,
+	- Obsahuje ekonometrické modely alebo metódy strojového učenia,
+	
+4. Po vizualizácii cez VOSviewer je zrejmé, že dataset obsahuje veľa článkov, ktoré sa zaoberajú komoditami ako zlato, ropa, atď. Tie boli odfiltrované cez python skript, pričom zostalo 379 potenciálne relevantných článkov. 
+5. Opätovná vizualizácia filtrovaných 379 článkov cez VOSviewer naznačuje, že sme dostatočne zachytili tematiku výskumu.
+6. Výsledných 379 článkov prešlo manuálnym výberom, pričom sme ich rozdelili na 3 časti podľa relevantnosti pre uľahčenie manuálneho výberu.
+	- Manuálny výber bol sústredený na ekonometrické modely, metódy umelej inteligencie, obdobie COVID-19 a globálne trhy (USA, Európy a Číny).
+	- V pôvodných 379 článkoch bolo veľa inštancií trhov Indie, blízkeho východu a Ázie. Tieto štúdie boli vyradené z dôvodu nízkej relevantnosti skúmaných 	regiónov. 
+	- Časť článkov taktiež tvorili systematické prehľady bez použitia akýchkoľvek ekonometrických modelov, alebo metód umelej inteligencie. Tie boli 	rovnako vyradené.
+	- Z výberu bolo vyradených niekoľko štúdií, ktoré majú nízku relevantnosť pre IT (trader sentiment, financie, ekonómia, prehľadové štúdie bez 	modelovania,...).
+7. Po manuálnom výbere zostalo finálnych 52 "áno" + 31 "možno" článkov.
+8. Z finálnych 83 článkov boli vybrané tie najvhodnejšie pre analýzu. Výsledkom je 31 článkov. 
+	- Finálny výber pozostával z dodatočného preverenia relevantnosti článkov. Bolo vyradených niekoľko štúdií, ktoré majú nejasné obsiahnutie regiónov, ako aj 	vágne použitie ekonometrických modelov a prípadné chýbajúce metódy umelej inteligencie.
+	- Do analýzy boli zahrnuté aj niektoré články, ktoré sa síce zaoberajú len ekonometrickými modelmi (chýbajú metódy umelej inteligencie), ale môžu mať dobrý 	informačný prínos správania trhov pred, počas a po COVID-19 v skúmaných regiónoch.
+
+Zo zberu dostupnej literatúry je zrejmé, že veľká časť výskumu sa zaoberá správaním konkrétnych trhov za špecifických podmienok s nízkou generalizáciou. Taktiež USA a Čína predstavujú najskúmanejšie regióny, pričom Európa je najmenej obsiahnutá. Veľká časť výskumu sa zaoberá aj Indiou a krajinami blízkeho východu.  
