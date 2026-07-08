@@ -1,2 +1,10 @@
+# Reasearch .pdf files to avoid re-distribution
 /Analýza súčasného stavu článok/Article PDFs/
 /Zdroje/
+
+# Microsoft Office temporary/lock files
+~$*
+~WRL*.tmp
+
+# General temporary files
+*.tmp
