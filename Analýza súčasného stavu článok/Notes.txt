@@ -74,7 +74,7 @@ Unique records: 1864
 Duplicates removed: 611
 
 Screening:
-1. Zber dát z WOS Core Collection naprieč Q2-Q7.
+1. Zber dát z WOS Core Collection naprieč Q1-Q4.
 2. Odstránenie duplicít. 
 3. Screening Title, Abstract, Author Keywords, Keywords Plus
 	- Ak obsahuje súvis s akciovým trhom,
