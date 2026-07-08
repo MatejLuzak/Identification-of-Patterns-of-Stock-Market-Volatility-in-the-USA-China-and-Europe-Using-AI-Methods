@@ -1,5 +1,7 @@
-Identifikácia vzorov v časových radoch pre komparáciu volatility akciových trhov USA, Číny a Európy pomocou metód umelej inteligencie
-Identification of Patterns in Time Series for the Comparison of Stock Market Volatility in the USA, China, and Europe Using Artificial Intelligence Methods
+# Identifikácia vzorov v časových radoch pre komparáciu volatility akciových trhov USA, Číny a Európy pomocou metód umelej inteligencie
+## Identification of Patterns in Time Series for the Comparison of Stock Market Volatility in the USA, China, and Europe Using Artificial Intelligence Methods
+
+---
 
 Cieľom práce je analyzovať a porovnať volatilitu akciových trhov v USA, Číne a Európe v období pred pandémiou COVID-19, počas nej a v post-covidovom období s využitím metód umelej inteligencie na identifikáciu vzorov v časových radoch. Výskum sa zameria na skúmanie dynamiky volatility a identifikáciu rozdielov v reakciách jednotlivých trhov na externé ekonomické a geopolitické šoky.
 Analýza bude založená na časových radoch trhových cien akcií, ktoré budú predspracované pomocou metód čistenia dát, transformácie časových radov a odstránenia autokorelácie. Na takto pripravené dáta budú aplikované metódy umelej inteligencie a strojového učenia zamerané na identifikáciu vzorov, klasifikáciu a predikciu volatility. Súčasťou metodiky bude aj výber relevantných atribútov (feature engineering) a porovnanie výkonnosti viacerých modelov, napríklad stromových algoritmov a neurónových sietí.
