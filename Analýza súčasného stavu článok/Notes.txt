@@ -95,3 +95,85 @@ Screening:
 	- Do analýzy boli zahrnuté aj niektoré články, ktoré sa síce zaoberajú len ekonometrickými modelmi (chýbajú metódy umelej inteligencie), ale môžu mať dobrý 	informačný prínos správania trhov pred, počas a po COVID-19 v skúmaných regiónoch.
 
 Zo zberu dostupnej literatúry je zrejmé, že veľká časť výskumu sa zaoberá správaním konkrétnych trhov za špecifických podmienok s nízkou generalizáciou. Taktiež USA a Čína predstavujú najskúmanejšie regióny, pričom Európa je najmenej obsiahnutá. Veľká časť výskumu sa zaoberá aj Indiou a krajinami blízkeho východu.  
+
+Články SCOPUS zatiaľ nie sú zahrnuté do diagramov a popisu.
+SCOPUS QUERY:
+TITLE(
+volatil*
+AND (
+"stock market*" OR
+"equity market*" OR
+"stock exchange*" OR
+"stock index*" OR
+"equity index*" OR
+"share market*" OR
+"STOXX Europe 600" OR
+"STOXX 600" OR
+"EURO STOXX 50" OR
+"FTSE 100" OR
+"FTSE MIB" OR
+DAX OR
+"CAC 40" OR
+"IBEX 35" OR
+AEX OR
+"BEL 20" OR
+"Swiss Market Index" OR
+WIG20 OR
+OMX OR
+ATX OR
+"PSI 20"
+)
+)
+AND TITLE-ABS-KEY(
+forecast* OR
+predict* OR
+model*
+)
+AND TITLE-ABS-KEY(
+COVID* OR
+coronavirus OR
+pandemic*
+)
+AND TITLE-ABS-KEY(
+Europe OR
+European OR
+"European Union" OR
+eurozone OR
+"euro area" OR
+"Central Europe*" OR
+"Eastern Europe*" OR
+"Western Europe*" OR
+"Northern Europe*" OR
+"Southern Europe*" OR
+"Southeastern Europe*" OR
+"Central and Eastern Europe" OR
+"Nordic countr*" OR
+"Baltic countr*"
+)
+AND NOT TITLE(
+"crude oil" OR
+petroleum OR
+"oil price*" OR
+"natural gas" OR
+electricity OR
+"electricity market*" OR
+"energy market*" OR
+"energy price*" OR
+"nuclear power" OR
+"nuclear energy" OR
+"nuclear production" OR
+commodity OR
+commodities OR
+gold OR
+bitcoin OR
+cryptocurrency OR
+cryptocurrencies OR
+"carbon emission*" OR
+agriculture OR
+tourism
+)
+AND PUBYEAR > 2019
+AND PUBYEAR < 2026
+AND DOCTYPE(ar)
+AND LANGUAGE(english)
+
