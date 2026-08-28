@@ -96,7 +96,7 @@ Screening:
 
 Zo zberu dostupnej literatúry je zrejmé, že veľká časť výskumu sa zaoberá správaním konkrétnych trhov za špecifických podmienok s nízkou generalizáciou. Taktiež USA a Čína predstavujú najskúmanejšie regióny, pričom Európa je najmenej obsiahnutá. Veľká časť výskumu sa zaoberá aj Indiou a krajinami blízkeho východu.  
 
-Články SCOPUS zatiaľ nie sú zahrnuté do diagramov a popisu.
+Články SCOPUS.
 SCOPUS QUERY:
 TITLE(
 volatil*
